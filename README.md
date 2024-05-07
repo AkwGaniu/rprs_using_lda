@@ -1,7 +1,7 @@
 # Research Paper Recommendation System (RPRS)
 
 ## Overview
-The Research Paper Recommendation System (RPRS) is a tool designed to help researchers find relevant papers from the arXiv repository. By leveraging topic modeling, the system analyzes paper titles and summaries to recommend the most relevant papers based on user-provided keywords.
+This system is designed to alleviate the challenge of information overload that researchers often encounter. It introduces a Research Paper Recommendation System (RPRS) that employs topic modeling to analyze research papers, allowing it to suggest relevant papers to researchers based on their search terms or keywords.
 
 ## Core Features
 - **Fetch Papers from arXiv**: The system retrieves a set of papers from the arXiv repository using user-defined search terms.
