@@ -13,9 +13,9 @@ This system is designed to alleviate the challenge of information overload that 
 ## How It Works
 1. **Fetch Data**: The system makes an API call to arXiv to retrieve papers based on search terms provided by the user.
 2. **Preprocess Data**: It converts the XML data into a structured format and applies text preprocessing techniques like stopword removal and stemming.
-3. **Build Topic Model**: An LDA-based topic model is built to identify topics in the dataset. The system also provides visualizations like word clouds.
-4. **Recommend Papers**: Based on a relevance score derived from user-defined keywords, the system recommends the top papers to the user.
-5. **Evaluate Recommendations**: The system evaluates its performance using metrics like precision, recall, and F1-score.
+3. **Build Topic Model**: An LDA-based topic model is built to identify topics in the dataset.
+4. **Recommend Papers**: Based on the document-topic distributions obtained from the dataset vis-a-vis the document-topic distributions derived from user-defined keywords, the system recommends top papers that allign with the researcher's search terms.
+5. **Evaluate Recommendations**: The system's performance is evaluated using precision, recall, and F1-score.
 
 ## Usage
 To use the system, you need to:
